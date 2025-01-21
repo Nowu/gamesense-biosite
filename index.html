@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAME</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Define the keyframes for the fade-in animation */
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+
+        /* Apply the animation to all elements */
+        * {
+          animation: fadeIn 1s ease-in-out;
+          /* You can adjust the animation duration and timing function as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="ctr fade-in">
+        <div class="bg fade-in">
+            <div class="items fade-in">
+                <div class="border-light fade-in">
+                    <div class="border-dark fade-in">
+                        <div class="border-inside fade-in">
+                            <div class="container fade-in">
+                                <div class="rainbow-container fade-in">
+                                    <div class="rainbow-1 fade-in"></div>
+                                    <div class="rainbow-2 fade-in"></div>
+                                    <div class="rainbow-3 fade-in"></div>
+                                </div>
+                                <div id="inside" class="inside fade-in">
+                                    <div id="body" class="body ctrd fade-in">
+                                        <span class="title fade-in">
+                                            @afgan
+                                        </span>
+                                        <div class="fade-in">
+                                            <div class="links fade-in">
+                                                <a href="TWITTER" target="_blank" class="button fade-in">
+                                                    Twitter
+                                                </a>
+                                                <a href="IG" target="_blank" class="button fade-in">
+                                                    Instagram
+                                                </a>
+                                                <a href="GITHUB" target="_blank" class="button fade-in">
+                                                    Github
+                                                </a>
+                                                <a href="STEAM" target="_blank" class="button fade-in">
+                                                    Steam
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <video id="video" autoplay="" muted="" loop="" controlslist="nodownload" disablepictureinpicture="" class="fade-in">
+        <source src="media/videoplayback.mp4">
+    </video>
+
+    <audio autoplay="" loop="" preload="true" disablepictureinpicture="" class="fade-in">
+        <source src="https://dl.sndup.net/x9vd/memo%20boy%20%20insomniac.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        var audio = document.currentScript.parentElement;
+        audio.volume = 0.45;
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
